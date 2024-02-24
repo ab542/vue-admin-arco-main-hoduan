@@ -33,6 +33,11 @@ public class RoleController {
     @Autowired
     private IRoleService roleService;
 
+    //   增加
+    @PostMapping()
+    public Result save(@RequestBody  Role role){
+        return roleService.save(role)?Result.suc():Result.fail();
+    }
 
     //    查询
     @GetMapping
