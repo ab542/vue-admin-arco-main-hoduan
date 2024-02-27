@@ -64,6 +64,14 @@
             <artifactId>spring-boot-starter-swagger</artifactId>
             <version>1.5.1.RELEASE</version>
         </dependency>
+        <!--二维码扫描工具包-->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
